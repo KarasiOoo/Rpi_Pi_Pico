@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.mpyy
+
+# MicroPython — firmware .uf2 pobieraj z micropython.org, nie trzymaj w repo
+# (projekty .py commituj normalnie)
+
+# C / pico-sdk
+build/
+.pico-sdk/
+*.elf
+*.map
+*.dis
+*.bin
+*.hex
+
+# UF2 — artefakty buildu C; opcjonalnie commituj gotowe releasy przez tagi
+*.uf2
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
